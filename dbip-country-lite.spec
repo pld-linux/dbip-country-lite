@@ -1,15 +1,15 @@
 %define		edition	country
 %define		geoname	Country
-%define		mver	2026-06
+%define		mver	2026-08
 Summary:	DB-IP IP to Country Lite - free IP geolocation database
 Summary(pl.UTF-8):	DB-IP IP to Country Lite - darmowa baza danych krajów dla geolokalizacji IP
 Name:		dbip-%{edition}-lite
-Version:	20260601
+Version:	20260801
 Release:	1
 License:	CC-BY-4.0
 Group:		Applications/Databases
 Source0:	https://download.db-ip.com/free/%{name}-%{mver}.mmdb.gz
-# Source0-md5:	5165aea267eed858c5b71486f6c75b2f
+# Source0-md5:	69f41a8cb14015a78da74031bb38f5a4
 URL:		https://db-ip.com/db/lite.php
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
